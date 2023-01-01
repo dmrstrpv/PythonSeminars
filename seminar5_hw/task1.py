@@ -1,4 +1,5 @@
 # Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
+# [‘ПРИВЕТ’, ‘ЗАБВЕНИЕ’, 'ПОКА’] ->[‘ПРИВЕТ’, 'ПОКА’]
 
 with open('text.txt', 'w') as data:
     data.write(input("Введите текст: "))
@@ -11,7 +12,7 @@ print()
 print(text_origin)
 print()
 
-letters = "абв"
+letters = "АБВ"
 
 
 def delete_words(words, text):
