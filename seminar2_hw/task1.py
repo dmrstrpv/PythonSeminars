@@ -34,4 +34,4 @@ for i in str(number):
     if i.isdigit():
         sum += int(i)
 
-print(number, "->" , sum)
+print(number, "->", sum)

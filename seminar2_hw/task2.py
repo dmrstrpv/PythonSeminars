@@ -4,7 +4,8 @@
 #
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
-#var1
+# var1
+
 # num = int(input("Введит число: "))
 # product = 1
 # while num > 1:
@@ -21,5 +22,5 @@ digit = 1
 
 for i in range(num):
     product *= digit
-    print(product, end =" ")
+    print(product, end=" ")
     digit += 1
