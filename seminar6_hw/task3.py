@@ -8,3 +8,5 @@
 
 numbers = [int(x) for x in input("Введите числа: ").split()]
 print(f'Сумма чисел, на нечётных позициях: {sum(numbers[index] for index in range(1, len(numbers), 2))}.')
+
+

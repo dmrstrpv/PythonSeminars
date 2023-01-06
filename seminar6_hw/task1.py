@@ -9,11 +9,14 @@
 # 18
 
 from math import gcd
-from functools import reduce
+# from functools import reduce
+#
+# n = input("Введите числа: ").split()
+# numbers = [int(x) for x in n]
+# print(f"Список натуральных чисел: {numbers}")
+#
+# gcd = reduce(gcd, numbers)
+# print(f"Наибольший общий делитель: {gcd}")
 
-n = input("Введите числа: ").split()
-numbers = [int(x) for x in n]
-print(f"Список натуральных чисел: {numbers}")
-
-gcd = reduce(gcd, numbers)
-print(f"Наибольший общий делитель: {gcd}")
+m = [36, 12, 144, 18]
+print(gcd(*m))
